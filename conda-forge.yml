@@ -1,3 +1,5 @@
+azure:
+  free_disk_space: true
 conda_build:
   error_overlinking: true
 conda_build_tool: rattler-build
