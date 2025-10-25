@@ -14,7 +14,7 @@ build:
   skip:
     - osx
     - win
-    - cuda_compiler == 'None'
+    - cuda_compiler_version == "None"
 requirements:
   build:
     - ${{ stdlib('c') }}
