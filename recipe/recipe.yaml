@@ -6,8 +6,8 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://github.com/NVIDIA-Digital-Bio/nvMolKit/archive/v${{ version }}.tar.gz
-  sha256: 558b8bf4222a57cecb264cf0b9d271358e6abb41f032d58a4992182536b75cc0
+  git: https://github.com/NVIDIA-Digital-Bio/nvMolKit.git
+  branch: release_0_3
 
 build:
   number: 1
