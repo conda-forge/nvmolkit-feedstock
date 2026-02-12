@@ -1,16 +1,16 @@
 context:
-  version: "0.3.0"
+  version: "0.4.0-test"
 
 package:
   name: "nvmolkit"
   version: ${{ version }}
 
 source:
-  url: https://github.com/NVIDIA-Digital-Bio/nvMolKit/archive/v${{ version }}.tar.gz
-  sha256: b0d9922c9f384e557bef9281e5fd2de4687be16e7bfb3f07be169a4a031a9ab0
+  url: https://github.com/evasnow1992/nvMolKit/archive/v${{ version }}.tar.gz
+  sha256: b3e8f0d184c546e4e47fc3d3913f95357bd523089bb3ce518ffb31e8690f8feb
 
 build:
-  number: 1
+  number: 0
   skip:
     - osx
     - win
