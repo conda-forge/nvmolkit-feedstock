@@ -1,5 +1,6 @@
 context:
-  version: "v0.4.0_test"
+  # Package version; tag on GitHub must be v + this (e.g. v0.4.0_test)
+  version: "0.4.0_test"
 
 package:
   name: "nvmolkit"
