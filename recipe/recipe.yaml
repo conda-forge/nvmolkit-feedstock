@@ -1,12 +1,15 @@
 context:
-  version: "0.4.0-test"
+  # Conda version (no hyphen allowed); use _ for pre-release
+  version: "0.4.0_test"
+  # GitHub tag for source tarball (can contain -)
+  git_tag: "0.4.0-test"
 
 package:
   name: "nvmolkit"
   version: ${{ version }}
 
 source:
-  url: https://github.com/evasnow1992/nvMolKit/archive/v${{ version }}.tar.gz
+  url: https://github.com/evasnow1992/nvMolKit/archive/v${{ git_tag }}.tar.gz
   sha256: b3e8f0d184c546e4e47fc3d3913f95357bd523089bb3ce518ffb31e8690f8feb
 
 build:
