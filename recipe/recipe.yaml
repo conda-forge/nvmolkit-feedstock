@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/NVIDIA-Digital-Bio/nvMolKit/archive/v${{ version }}.tar.gz
-  sha256: d2f0c6c9d3300bfe4790465e49e256914e912978426aaeb82b3ac4bda2fde92f
+  sha256: 423eb42077fc3d12a6d6a8e49f3fb778fade233c1cc46d55b4082b70a6c55bfc
 
 build:
   number: 0
