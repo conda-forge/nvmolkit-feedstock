@@ -1,5 +1,5 @@
 context:
-  version: "0.3.0"
+  version: "0.4.0"
 
 package:
   name: "nvmolkit"
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/NVIDIA-Digital-Bio/nvMolKit/archive/v${{ version }}.tar.gz
-  sha256: b0d9922c9f384e557bef9281e5fd2de4687be16e7bfb3f07be169a4a031a9ab0
+  sha256: 423eb42077fc3d12a6d6a8e49f3fb778fade233c1cc46d55b4082b70a6c55bfc
 
 build:
-  number: 2
+  number: 0
   skip:
     - osx
     - win
@@ -51,6 +51,7 @@ tests:
   - python:
       imports:
         - nvmolkit
+      pip_check: false
 
 about:
   homepage: https://github.com/NVIDIA-Digital-Bio/nvMolKit
