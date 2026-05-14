@@ -1,3 +1,6 @@
+# librdkit_dev is zipped with libboost_* because each librdkit build links
+# against a specific libboost minor version; the older librdkit versions only
+# have libboost 1.86 builds on conda-forge, while 2026.3.1 has a 1.88 build.
 librdkit_dev:
   - "2025.3.3"
   - "2025.3.4"
@@ -10,3 +13,44 @@ librdkit_dev:
   - "2025.9.5"
   - "2026.3.1"
 
+libboost_devel:
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.88"
+
+libboost_headers:
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.88"
+
+libboost_python_devel:
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.86"
+  - "1.88"
+
+zip_keys:
+  - - librdkit_dev
+    - libboost_devel
+    - libboost_headers
+    - libboost_python_devel
