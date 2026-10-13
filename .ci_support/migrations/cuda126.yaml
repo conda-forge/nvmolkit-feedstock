@@ -20,6 +20,7 @@ __migrator:
       - None
       - 12.9
       - 13.0
+      - 13.4
       - 11.8
 
 cuda_compiler_version:         # [((linux and (x86_64 or aarch64)) or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]

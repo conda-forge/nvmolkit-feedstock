@@ -1,5 +1,5 @@
 context:
-  version: "0.6.0"
+  version: "0.7.0"
 
 package:
   name: "nvmolkit"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/NVIDIA-BioNeMo/nvMolKit/archive/v${{ version }}.tar.gz
-  sha256: 31ac8f977fc5bd9f8f866265060fc50000f36a0c92cb0d035b035f83f37d6208
+  sha256: 1059b121b268e4255120bb0ef090dd4e18a1c368e62f8e1d56edca6b6c1613d4
 
 build:
   number: 0
@@ -15,6 +15,7 @@ build:
     - osx
     - win
     - cuda_compiler_version == "None"
+    - match(python, "<3.11")
 requirements:
   build:
     - ${{ stdlib('c') }}
